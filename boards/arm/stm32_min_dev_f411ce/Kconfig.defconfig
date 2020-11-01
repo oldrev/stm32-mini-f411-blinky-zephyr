@@ -1,0 +1,26 @@
+# BBC LWM01 board configuration
+
+# Copyright (c) 
+# Copyright (c) 
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_STM32_MIN_DEV_F411CE
+
+config BOARD
+	default "stm32_min_dev_f411ce"
+
+config SPI_STM32_INTERRUPT
+	default y
+	depends on SPI
+
+if WATCHDOG
+
+config WWDG_STM32
+	default y
+
+config IWDG_STM32
+	default n
+
+endif # WATCHDOG
+
+endif # BOARD_NUCLEO_F401RE
