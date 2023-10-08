@@ -1,6 +1,8 @@
 # A Zephyr-RTOS Blinky Demo for BluePill-Like STM32F411CEU6 Development Board
 
-**This is a mistake I didn't know there was already existed a BluePill-Like board supporting package in Zephyr source tree that called `blackpill_f411ce`. **
+
+** This is a mistake; I didn't know there was already an existing package in the Zephyr source tree called `blackpill_f411ce` that supports BluePill-Like boards. **
+
 
 ## How To Run
 
